@@ -1,0 +1,13 @@
+#root {
+  margin: 0 auto ;
+  padding: 0 ;
+  width: 40vw;
+  padding-bottom: 1vh;
+  background-color: #181818;
+  border-radius: 25px;
+}
+@media screen and (max-width:1020px){
+  #root {
+    width: 50vw;
+  }
+}
