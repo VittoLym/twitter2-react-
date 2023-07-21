@@ -60,14 +60,17 @@ const Section = styled.section`
   margin: 0 1vw;
   display: flex;
   flex-direction: row;
-  justify-content:start;
   margin: 1vh 0;
+  justify-content:space-around;
   &:hover{
     background-color: #212121;
   }
   @media (max-width:1020px){
     margin: 0 auto;
     align-items: center;
+  }
+  @media (max-width:500px){
+    justify-content:start;
   }
 `;
 const Header = styled.header`
@@ -149,6 +152,7 @@ const Button = styled.button`
   }
   @media (max-width:500px){
     width: 15vw;
+    height: 5vh;
     font-size: .5rem;
   }
 `;
